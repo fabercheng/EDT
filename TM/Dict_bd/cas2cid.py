@@ -21,7 +21,7 @@ ua=UserAgent()
 ####### Open file, import original file, convert CAS number to list storage
 
 cas_cid = open('./CAS-CID.txt', 'a',encoding='utf-8-sig', newline='')
-CAS_file=open('/Users/devonne/Documents/JNU/NLPmodel/BiLSTM+CRF/merger1.txt','r',encoding='utf-8-sig',dtype={'code':str})
+CAS_file=open('~/merger1.txt','r',encoding='utf-8-sig',dtype={'code':str})
 cas_line=CAS_file.readlines()
 for i in range(len(cas_line)):
     cas_url=re.sub(r'cas',cas_line[i],url)

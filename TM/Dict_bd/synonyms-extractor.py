@@ -5,7 +5,7 @@ import re
 import pubchempy
 import pandas as pd
 import numpy as np
-with open('/Users/devonne/Documents/JNU/NLPmodel/BiLSTM+CRF/chemspi-id-name.txt','r',encoding='utf-8-sig') as file1:
+with open('~/chemspi-id-name.txt','r',encoding='utf-8-sig') as file1:
     file1 = pd.read_csv('./merger1.csv',dtype={'code':str})
     file_lines=file1.readlines()
     name_list=[] ##create column in csv

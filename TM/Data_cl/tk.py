@@ -89,13 +89,13 @@ def pre_process(text):
     return token_words
 
 if __name__ == '__main__':
-    f = open('~/list.txt')
+    f = open('./list.txt')
     text = f.read()
     token_words = tokenize(text)
     token_words = stem(token_words)
     token_words = delete_stopwords(token_words)
     token_words = delete_characters(token_words)
     token_words = to_lower(token_words)
-    with open('~/tk.txt', 'w') as f:
+    with open('./tk.txt', 'w') as f:
         print(token_words, file=f)
 

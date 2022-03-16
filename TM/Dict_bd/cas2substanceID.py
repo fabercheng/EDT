@@ -5,7 +5,7 @@ from selenium import webdriver
 #########webdriver can be considered as the driver of the browser.
 
 
-browser = webdriver.Safari()
+browser = webdriver.Chrome()
 ########Add URL, PubChem
 
 

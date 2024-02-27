@@ -1,0 +1,10 @@
+MetFragDatabaseType = LocalCSV\
+LocalCSVPath = \cf4 "ei.csv"\
+\cf2 NumberMaximumPeaksUsed = \cf5 200\
+\cf2 PrecursorIonMode = \cf5 1\
+\cf2 MetFragScoreTypes = FragmenterScore,AutomatedPeakFingerprintAnnotationScore,AutomatedLossFingerprintAnnotationScore\
+\cf2 PeakFingerprintAnnotationBetaValue = \cf5 0.0125\
+\cf2 PeakFingerprintAnnotationAlphaValue = \cf5 1e-04\
+\cf2 MaximumTreeDepth = \cf5 2\
+\cf2 MetFragPreProcessingCandidateFilter = UnconnectedCompoundFilter,IsotopeFilter,InChIKeyFilter\
+\ResultsPath = .\

@@ -6,8 +6,8 @@ An Integrated Tool for Text Mining, Deep Learning for Structures Predictions and
 
 The repository is structured into three main folders:
 
-1. **TM (Text Mining)**: This module focuses on extracting valuable information from textual data using advanced text mining methodologies.
-2. **EDMS (Enhanced Deep Mass Spectrometry)**: This module utilizes deep learning to develop methods for identifying ions in HRMS data.
+1. **TM**: This module focuses on extracting valuable information from textual data using advanced text mining methodologies.
+2. **EDMS**: This module utilizes deep learning to develop methods for identifying ions in HRMS data.
 3. **EDT-Screening**: This module is dedicated to building a screening mass spectrometry library for efficient data analysis.
 
 ## Features

@@ -12,13 +12,13 @@ The repository is structured into three main folders:
 
 ## Features
 
-- **Text Mining (TM)**:
+- **TM**:
   - Data sources query and literature scrapy.
   - Advanced text processing and feature extraction.
   - Keyword analysis and semantic mapping.
   - Integration with external databases for enriched data retrieval.
 
-- **Enhanced Deep Mass Spectrometry (EDMS)**:
+- **EDMS**:
   - The ANN models for predicting the bioactive substructures (EDFP).
   - The CCNN models for predicting the ions (EDION) based on the EDFPs.
   - Support for custom model training and optimization.
@@ -33,6 +33,9 @@ The repository is structured into three main folders:
 - **Web crawler**: [Link](https://github.com/huangjiehui826/sci_hub_crawler_v1/tree/main/sci_hub_crawler_v1)
 - **Chemical names recognition from English literature**: [Link](https://github.com/huangjiehui826/chemical_ner_v1)
 - **Toxicological terms recognition from English literature**: [Link](https://github.com/huangjiehui826/aop_ner_v1)
+
+## Version Updates
+11.10, 2024 Update: Updated the LCMS EDION prediction scripts in the EDMS module.
 
 ## Contributing
 

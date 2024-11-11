@@ -40,13 +40,15 @@ We welcome contributions from researchers and developers. Please read our Contri
 
 ### Contributors
 Special thanks to the following contributors who have made significant contributions to this project:
-Jiehui Huang: Contributions in data processing and deep learning model optimization.
+
+[Jiehui Huang] (https://github.com/huangjiehui826): Contributions in data processing and text mining.
+
 Feel free to join this list by contributing to the project!
 
-##License
+## License
 
 This project is licensed under the MIT License.
 
-##Acknowledgements
+## Acknowledgements
 
 We would like to thank all individuals and organizations that have supported and contributed to this project.

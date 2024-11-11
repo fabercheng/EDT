@@ -1,10 +1,10 @@
 # Event-driven taxonomy (EDT) based non-target analysis tool
 
-An Integrated Tool for Text Mining, High-Resolution Mass Spectrometry Analysis, and Deep Learning Applications
+An Integrated Tool for Text Mining, Deep Learning for Structures Predictions and High-Resolution Mass Spectrometry Applications
 
 ## Introduction
 
-This project offers a comprehensive solution that integrates text mining, high-resolution mass spectrometry (HRMS) analysis, and deep learning techniques. The repository is structured into three main folders:
+The repository is structured into three main folders:
 
 1. **TM (Text Mining)**: This module focuses on extracting valuable information from textual data using advanced text mining methodologies.
 2. **EDMS (Enhanced Deep Mass Spectrometry)**: This module utilizes deep learning to develop methods for identifying ions in HRMS data.
@@ -13,19 +13,20 @@ This project offers a comprehensive solution that integrates text mining, high-r
 ## Features
 
 - **Text Mining (TM)**:
+  - Data sources query and literature scrapy.
   - Advanced text processing and feature extraction.
   - Keyword analysis and semantic mapping.
   - Integration with external databases for enriched data retrieval.
 
 - **Enhanced Deep Mass Spectrometry (EDMS)**:
-  - Deep learning models for ion identification in HRMS.
+  - The ANN models for predicting the bioactive substructures (EDFP).
+  - The CCNN models for predicting the ions (EDION) based on the EDFPs.
   - Support for custom model training and optimization.
-  - High accuracy and efficiency in spectral analysis.
+  - The data prepartion and oepn access library decoding.
 
 - **EDT-Screening**:
-  - Construction of comprehensive mass spectrometry libraries.
-  - Tools for data normalization and standardization.
-  - Fast and accurate screening algorithms.
+  - Construction of comprehensive mass spectrometry libraries based on TM and EDMS.
+  - Substructures annotation.
 
 ## Installation
 
@@ -39,3 +40,25 @@ cd EDT
 # Install the required dependencies
 pip install -r requirements.txt
 
+## External Links for better TM in our project
+
+- **Web crawler**: [Link to external documentation or webpage for web crawlber](https://github.com/huangjiehui826/sci_hub_crawler_v1/tree/main/sci_hub_crawler_v1)
+- **Chemical names recognition from English literature**: [Link to external documentation or webpage for chemical names NER](https://github.com/huangjiehui826/chemical_ner_v1)
+- **Toxicological terms recognition from English literature**: [Link to external documentation or webpage for toxicological terms NER](https://github.com/huangjiehui826/aop_ner_v1)
+
+## Contributing
+
+We welcome contributions from researchers and developers. Please read our Contributing Guidelines to learn how you can contribute.
+
+### Contributors
+Special thanks to the following contributors who have made significant contributions to this project:
+Jiehui Huang: Contributions in data processing and deep learning model optimization.
+Feel free to join this list by contributing to the project!
+
+##License
+
+This project is licensed under the MIT License.
+
+##Acknowledgements
+
+We would like to thank all individuals and organizations that have supported and contributed to this project.

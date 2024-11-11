@@ -31,10 +31,10 @@ This project offers a comprehensive solution that integrates text mining, high-r
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/fabercheng/EDT.git
 
 # Navigate to the project directory
-cd your-repository
+cd EDT
 
 # Install the required dependencies
 pip install -r requirements.txt

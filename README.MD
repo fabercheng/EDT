@@ -30,9 +30,9 @@ The repository is structured into three main folders:
 
 ## External Links for better TM in our project
 
-- **Web crawler**: [Link to external documentation or webpage for web crawlber](https://github.com/huangjiehui826/sci_hub_crawler_v1/tree/main/sci_hub_crawler_v1)
-- **Chemical names recognition from English literature**: [Link to external documentation or webpage for chemical names NER](https://github.com/huangjiehui826/chemical_ner_v1)
-- **Toxicological terms recognition from English literature**: [Link to external documentation or webpage for toxicological terms NER](https://github.com/huangjiehui826/aop_ner_v1)
+- **Web crawler**: [Link](https://github.com/huangjiehui826/sci_hub_crawler_v1/tree/main/sci_hub_crawler_v1)
+- **Chemical names recognition from English literature**: [Link](https://github.com/huangjiehui826/chemical_ner_v1)
+- **Toxicological terms recognition from English literature**: [Link](https://github.com/huangjiehui826/aop_ner_v1)
 
 ## Contributing
 
@@ -41,7 +41,7 @@ We welcome contributions from researchers and developers. Please read our Contri
 ### Contributors
 Special thanks to the following contributors who have made significant contributions to this project:
 
-[Jiehui Huang] (https://github.com/huangjiehui826): Contributions in data processing and text mining.
+[Jiehui Huang](https://github.com/huangjiehui826): Contributions in data processing and text mining.
 
 Feel free to join this list by contributing to the project!
 

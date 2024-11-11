@@ -28,18 +28,6 @@ The repository is structured into three main folders:
   - Construction of comprehensive mass spectrometry libraries based on TM and EDMS.
   - Substructures annotation.
 
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/fabercheng/EDT.git
-
-# Navigate to the project directory
-cd EDT
-
-# Install the required dependencies
-pip install -r requirements.txt
-
 ## External Links for better TM in our project
 
 - **Web crawler**: [Link to external documentation or webpage for web crawlber](https://github.com/huangjiehui826/sci_hub_crawler_v1/tree/main/sci_hub_crawler_v1)

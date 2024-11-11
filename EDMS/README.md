@@ -69,9 +69,9 @@ This program is designed for the automated analysis of chemical compounds, focus
    - **Purpose**: Defines the structure of the Cascade Correlation Neural Network for EDION.
    - **Process**: Establishes CCNN layers, connections, and network parameters.
 
-### 3. EDFP to EDION Transformation (`edfp_edion.py`)
+### 3. EDFP to EDION Transformation in GC-HRMS (`edfp_edion.py`)
    - **Purpose**: Transforms EDFP into EDION using the CCNN model.
-   - **Process**: Trains the CCNN model with the curated dataset to generate EDION.
+   - **Process**: Trains the CCNN model with the curated dataset to generate EDION in EI modes.
 
 ### 4. Scoring System Definition (`scoring.py`)
    - **Purpose**: Develops a scoring system for compound analysis.
@@ -81,12 +81,18 @@ This program is designed for the automated analysis of chemical compounds, focus
    - **Purpose**: Filters and selects compounds for analysis.
    - **Process**: Applies the EDION model to new datasets for compound screening.
 
+### 6. EDFP to EDION Transformation in LC-HRMS (`edfp_edion_l.py`)
+   - **Purpose**: Transforms EDFP into EDION using the CCNN model.
+   - **Process**: Trains the CCNN model with the curated dataset to generate EDION in ESI modes.
 
 ## Installation and Usage
 1. Clone or download the repository.
 2. Follow instructions in `config.py` for setting up the environment.
 3. Install necessary dependencies.
 4. Execute the scripts as per the workflow for EDFP and EDION training.
+
+## Version Updates
+Modified the EDFP to EDION transformation module, added usage scripts for LC, and changed the original script's applicable object to GC.
 
 ## Notes
 - Adherence to data usage and copyright regulations is essential.

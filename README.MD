@@ -45,6 +45,7 @@ We welcome contributions from researchers and developers. Please read our Contri
 Special thanks to the following contributors who have made significant contributions to this project:
 
 [Jiehui Huang](https://github.com/huangjiehui826): Contributions in data processing and text mining.
+[Liwei He](https://github.com/heliwei30): Contribution in HRMS-based data processing.
 
 Feel free to join this list by contributing to the project!
 
